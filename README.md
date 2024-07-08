@@ -1,6 +1,6 @@
 # Shimo Lab at "Discharge Me!": Discharge Summarization by Prompt-Driven Concatenation of Electronic Health Record Sections
 - Code for paper **Shimo Lab at "Discharge Me!": Discharge Summarization by Prompt-Driven Concatenation of Electronic Health Record Sections**
-- paper: [cite]()  Accept to BioNLP ACL'24
+- paper: [cite](https://arxiv.org/abs/2406.18094)  Accept to BioNLP ACL'24
 - Authors: Yunzhen He<sup>\*, 1</sup>, Hiroaki Yamagiwa<sup>\*, 1</sup>,  Hidetoshi Shimodaira<sup>1, 2</sup>
 - <sup>\*</sup> The first two authors contributed mainly and equally to this work
 - <sup>1</sup> Kyoto University, <sup>2</sup> RIKEN AIP
