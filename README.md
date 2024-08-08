@@ -17,11 +17,11 @@ Overview of our pipeline. To create input text, we extract sections from the EHR
 pip install transformers==4.39.3
 pip install torch==2.2.1
 ```
-- **Get data**
+- **Get data**  
 In order to get EHR data, you must have a credentialed PhysioNet account. Details are available from [this page](https://physionet.org/content/discharge-me/1.3/)
-- **For raw data preprocessing**
+- **For raw data preprocessing**  
 Please use the script [data_factory/cv_split.py](data_factory/cv_split.py) to make input data. Remember to use [data_factory/make_text_without_target.py](data_factory/make_text_without_target.py) to remove the target from the train, validation, and test datasets❗️
-- **For Implementing Scoring Metrics**
+- **For Implementing Scoring Metrics**  
   We utilize the official scoring metrics available at [Stanford-AIMI/discharge-me/scoring](https://github.com/Stanford-AIMI/discharge-me/blob/main/scoring). To accurately calculate scores, please first review and implement the required components as specified in the guidelines.
 
 # Experiments🔬
